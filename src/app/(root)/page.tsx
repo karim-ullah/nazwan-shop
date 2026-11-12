@@ -9,9 +9,9 @@ export default function Home() {
   return (
     <div>
 
-      <Button variant="secondary" size="default">
+      {/* <Button variant="secondary" size="default">
         Default Button
-      </Button>
+      </Button> */}
      </div>
   );
 }
