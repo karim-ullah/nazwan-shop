@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import HeroCarousel from "@/components/homepage/hero/heroBanner";
 
 export const metadata = {
   title: "Home",
@@ -9,9 +9,7 @@ export default function Home() {
   return (
     <div>
 
-      {/* <Button variant="secondary" size="default">
-        Default Button
-      </Button> */}
+      <HeroCarousel  />
      </div>
   );
 }

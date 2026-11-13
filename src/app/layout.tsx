@@ -27,10 +27,14 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
+    suppressHydrationWarning
       lang="en"
       className={cn("h-full", "antialiased", inter.variable, cormorantGaramond.variable)}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        
+        {children}
+        </body>
     </html>
   );
 }

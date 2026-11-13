@@ -4,20 +4,20 @@ import Link from "next/link";
 
 const UserFavCart = () => {
     return ( 
-        <div>
-          <Button asChild variant="ghost">
+        <div className="flex">
+          <Button className={'hidden lg:block'} asChild variant="ghost" size="lg">
             <Link href="/sign-in">
-              <UserIcon size={28} />
+              <UserIcon size={40} />
             </Link>
           </Button>
-          <Button asChild variant="ghost">
+          <Button className={'hidden lg:block'} asChild variant="ghost" size="lg">
             <Link href="/favorites">
-              <HeartIcon size={28} />
+              <HeartIcon size={40} />
             </Link>
           </Button>
-          <Button asChild variant="ghost">
+          <Button asChild variant="ghost" size="lg">
             <Link href="/cart">
-              <ShoppingCart size={28} />
+              <ShoppingCart size={40} />
             </Link>
           </Button>
         </div>
