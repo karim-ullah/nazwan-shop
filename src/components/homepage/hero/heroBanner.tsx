@@ -10,10 +10,10 @@ import Hero2 from "@/assets/hero-2.jpg";
 const HeroCarousel = () => {
   const heroImages = [Hero1, Hero2];
   return (
-    <Carousel className="bg-gray-200 w-full mt-6">
+    <Carousel className="bg-gray-200 w-full mt-6 mb-8">
       <CarouselContent>
         {heroImages.map((image, index) => (
-          <CarouselItem>
+          <CarouselItem key={index}>
             <div
               className="bg-cover bg-center bg-no-repeat w-full h-40 lg:h-96"
               style={{ backgroundImage: `url(${image.src})` }}

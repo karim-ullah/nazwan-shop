@@ -9,7 +9,7 @@ const NavMenu = ({navItems}) => {
             <nav>
               <ul className={`flex-center gap-8 text-sm font-inter`}>
                 {navItems.map((item) => (
-                  <li key={item.href} asChild className={pathName === item.href ? "font-semibold" : "font-regular"}>
+                  <li key={item.href}  className={pathName === item.href ? "font-semibold" : "font-regular"}>
                     <Link href={item.href}>{item.label}</Link>
                   </li>
                 ))}

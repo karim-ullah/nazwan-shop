@@ -1,4 +1,5 @@
 import HeroCarousel from "@/components/homepage/hero/heroBanner";
+import TopCategories from "@/components/homepage/TopCategoires";
 
 export const metadata = {
   title: "Home",
@@ -7,9 +8,10 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <div>
+    <div className="min-h-screen">
 
       <HeroCarousel  />
+      <TopCategories />
      </div>
   );
 }
