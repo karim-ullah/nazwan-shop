@@ -1,6 +1,7 @@
 import DiscoverStory from "@/components/homepage/DiscoverStory";
 import HeroCarousel from "@/components/homepage/hero/heroBanner";
 import Panjabi from "@/components/homepage/panjabi";
+import PanjabiCollections from "@/components/homepage/products/panjabiCollections";
 import TopCategories from "@/components/homepage/TopCategoires";
 
 export const metadata = {
@@ -16,6 +17,7 @@ export default function Home() {
       <TopCategories />
       <DiscoverStory />
       <Panjabi/>
+      <PanjabiCollections/>
      </div>
   );
 }
