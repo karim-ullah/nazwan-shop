@@ -18,8 +18,13 @@
     @apply flex justify-between items-center ;
   }
 
-  .h1-bold {
-    @apply text-4xl font-bold;
+  .flex-around {
+    @apply flex justify-around items-center;
+  }
+
+
+  .h1-semi-bold {
+    @apply text-[64px] font-semibold font-inter uppercase;
   }
   .h2-bold {
     @apply text-3xl font-bold;
@@ -27,6 +32,14 @@
   .h3-bold {
     @apply text-2xl font-bold;
   } 
+  .h4-banner {
+    @apply text-xs font-medium font-inter uppercase; 
+  }
+
+  p {
+    @apply text-xs font-normal font-inter text-[#6B625A]
+  }
+
 }
 
 @theme inline {

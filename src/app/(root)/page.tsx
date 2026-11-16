@@ -1,4 +1,6 @@
+import DiscoverStory from "@/components/homepage/DiscoverStory";
 import HeroCarousel from "@/components/homepage/hero/heroBanner";
+import Panjabi from "@/components/homepage/panjabi";
 import TopCategories from "@/components/homepage/TopCategoires";
 
 export const metadata = {
@@ -12,6 +14,8 @@ export default function Home() {
 
       <HeroCarousel  />
       <TopCategories />
+      <DiscoverStory />
+      <Panjabi/>
      </div>
   );
 }
