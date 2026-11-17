@@ -9,7 +9,7 @@ import NavMenu from "./navItems";
 const Header = () => {
   const navItems = [
     { label: "Home", href: "/" },
-    { label: "Products", href: "/products" },
+    { label: "Shop", href: "/shop" },
     { label: "Panjabi", href: "/panjabi" },
     { label: "Jubba", href: "/jubba" },
     { label: "Attar", href: "/attar" },

@@ -1,8 +1,13 @@
 import DiscoverStory from "@/components/homepage/DiscoverStory";
 import HeroCarousel from "@/components/homepage/hero/heroBanner";
-import Panjabi from "@/components/homepage/panjabi";
-import PanjabiCollections from "@/components/homepage/products/panjabiCollections";
+import Panjabi from "@/components/homepage/CollectionBannerOne";
 import TopCategories from "@/components/homepage/TopCategoires";
+import CollectionBannerOne from "@/components/homepage/CollectionBannerOne";
+import CollectionsOne from "@/components/homepage/products/CollectionsOne";
+import CollectionBannerTwo from "@/components/homepage/CollectionBannerTwo";
+import CollectionsTwo from "@/components/homepage/products/CollectionsTwo";
+import CollectionBannerThree from "@/components/homepage/CollectionBannerThree";
+import CollectionBannerFour from "@/components/homepage/CollectionBannerFour";
 
 export const metadata = {
   title: "Home",
@@ -16,8 +21,14 @@ export default function Home() {
       <HeroCarousel  />
       <TopCategories />
       <DiscoverStory />
-      <Panjabi/>
-      <PanjabiCollections/>
+      <CollectionBannerOne/>
+      <CollectionsOne/>
+      <CollectionBannerTwo/>
+      <CollectionsTwo/>
+
+      {/* combind banner and collections */}
+      <CollectionBannerThree/>
+      <CollectionBannerFour/>
      </div>
   );
 }
