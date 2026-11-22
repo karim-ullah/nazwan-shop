@@ -35,6 +35,9 @@
   .h4-banner {
     @apply text-xs font-medium font-inter uppercase; 
   }
+  h3 {
+    @apply font-normal font-cormorantGaramond text-5xl text-foreground;
+  }
   h5 {
     @apply text-[16px] font-medium font-inter;
   }
