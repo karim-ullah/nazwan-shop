@@ -43,7 +43,7 @@
   }
 
   p {
-    @apply text-xs font-normal font-inter text-[#6B625A]
+    @apply text-[16px] font-normal font-inter text-[#6B625A]
   }
 
 }

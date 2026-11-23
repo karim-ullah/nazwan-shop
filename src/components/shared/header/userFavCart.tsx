@@ -15,10 +15,11 @@ const UserFavCart = () => {
               <HeartIcon size={40} />
             </Link>
           </Button>
-          <Button  variant="ghost" size="lg">
+          <Button className={'relative'}  variant="ghost" size="lg">
             <Link href="/cart">
               <ShoppingCart size={40} />
             </Link>
+            <span className="absolute bottom-6 left-8">0</span>
           </Button>
         </div>
      );

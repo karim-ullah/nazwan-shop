@@ -43,7 +43,7 @@ const RightDetails = ({ product }: {product: productType}) => {
           <span className="text-sm">Out of Stock</span>
         )}
       </span>
-      <p className="text-sm border-b pb-5">
+      <p className="border-b pb-5">
         Quiet elegance, made for every day. Breathable premium cotton, delicate
         embroidery and a beautifully tailored regular fit.
       </p>
@@ -123,15 +123,15 @@ const RightDetails = ({ product }: {product: productType}) => {
       </div>
 
       <div>
-        <p className="flex items-center gap-2 text-sm font-inter font-medium mt-3">
+        <p className="flex items-center gap-2 font-inter font-medium mt-3">
           {" "}
           <span className="w-2 h-2 bg-primary rounded-full"></span>
           {product.instock ? "In stock - ready to ship" : "Out of Stock"}
         </p>
-        <p className="my-1 text-sm">
+        <p className="my-1">
           Delivery in 2–4 business days · Cash on delivery available
         </p>
-        <p className="text-sm">Easy 7-day exchanges / Secure checkout</p>
+        <p>Easy 7-day exchanges / Secure checkout</p>
       </div>
     </div>
   );
